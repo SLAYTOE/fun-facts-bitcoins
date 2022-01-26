@@ -18,9 +18,19 @@ body {
 
 img {
   width: 600px;
+  animation: rotation 50s infinite linear;
 }
 
 footer p {
   font-size: 1.5rem;
   font-style: italic;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
