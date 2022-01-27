@@ -2,11 +2,42 @@ html,
 body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  background-size: auto 100%;
+  color: white;
+}
+
+.kontext {
+  text-align: center;
+}
+
+article {
+  width: 40rem;
+}
+
+article img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.the-facts {
+  text-align: center;
 }
 
 h1 {
   font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 body {
@@ -16,14 +47,36 @@ body {
   align-items: center;
 }
 
-img {
+.spinningBitcoin {
   width: 600px;
-  animation: rotation 50s infinite linear;
+  animation: rotation 30s infinite linear;
+}
+
+.bitcoinmining {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.kinamine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mangelogoer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 footer p {
   font-size: 1.5rem;
   font-style: italic;
+  font-weight: bold;
 }
 
 @keyframes rotation {
@@ -31,6 +84,6 @@ footer p {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(359deg);
   }
 }
